@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+import sys
+import email
+import json
+import redis
+import copy
+
+try: 
+  mail = email.message_from_string(sys.stdin.read())
+  json_mail = json.dumps(mail.__dict__)
+
+  r = redis.StrictRedis(host='localhost', port=6379, db=0)
+  r.rpush(mail["To"][1:-1], json_mail)
+
+except Exception as e:
+  with file("/home/zogg/test", "w") as f:
+    f.write(str(e))

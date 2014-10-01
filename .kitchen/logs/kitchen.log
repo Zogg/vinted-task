@@ -1,0 +1,70 @@
+E, [2014-10-01T22:23:52.888856 #9970] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-01T22:23:52.889015 #9970] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-01T22:23:52.889127 #9970] ERROR -- Kitchen: Message: Vagrant 1.1.0 or higher is not installed. Please download a package from http://downloads.vagrantup.com/.
+E, [2014-10-01T22:23:52.889172 #9970] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-10-01T22:23:52.889238 #9970] ERROR -- Kitchen: Class: Errno::ENOENT
+E, [2014-10-01T22:23:52.889280 #9970] ERROR -- Kitchen: Message: No such file or directory - vagrant
+E, [2014-10-01T22:23:52.889320 #9970] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-01T22:23:52.889361 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:222:in `rescue in vagrant_version'
+E, [2014-10-01T22:23:52.889401 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:219:in `vagrant_version'
+E, [2014-10-01T22:23:52.889470 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:227:in `check_vagrant_version'
+E, [2014-10-01T22:23:52.889512 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:100:in `verify_dependencies'
+E, [2014-10-01T22:23:52.889553 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2014-10-01T22:23:52.889594 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:124:in `new_driver'
+E, [2014-10-01T22:23:52.889634 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:130:in `new_instance'
+E, [2014-10-01T22:23:52.889675 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2014-10-01T22:23:52.889716 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `map'
+E, [2014-10-01T22:23:52.889757 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `with_index'
+E, [2014-10-01T22:23:52.889835 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-01T22:23:52.889939 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-01T22:23:52.890819 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-01T22:23:52.890911 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-01T22:23:52.890957 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/list.rb:31:in `call'
+E, [2014-10-01T22:23:52.890999 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-01T22:23:52.891040 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:81:in `list'
+E, [2014-10-01T22:23:52.891082 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-01T22:23:52.891172 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-01T22:23:52.891214 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-10-01T22:23:52.891255 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-01T22:23:52.891296 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-01T22:23:52.891337 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-01T22:23:52.891428 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-01T22:23:52.891485 #9970] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-01T22:23:52.891528 #9970] ERROR -- Kitchen: /usr/bin/kitchen:10:in `load'
+E, [2014-10-01T22:23:52.891568 #9970] ERROR -- Kitchen: /usr/bin/kitchen:10:in `<main>'
+E, [2014-10-01T22:23:52.891609 #9970] ERROR -- Kitchen: ----------------------
+E, [2014-10-01T22:24:02.106228 #10115] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-01T22:24:02.106385 #10115] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-01T22:24:02.106435 #10115] ERROR -- Kitchen: Message: Vagrant 1.1.0 or higher is not installed. Please download a package from http://downloads.vagrantup.com/.
+E, [2014-10-01T22:24:02.106479 #10115] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-10-01T22:24:02.106520 #10115] ERROR -- Kitchen: Class: Errno::ENOENT
+E, [2014-10-01T22:24:02.106562 #10115] ERROR -- Kitchen: Message: No such file or directory - vagrant
+E, [2014-10-01T22:24:02.106603 #10115] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-01T22:24:02.106644 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:222:in `rescue in vagrant_version'
+E, [2014-10-01T22:24:02.106685 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:219:in `vagrant_version'
+E, [2014-10-01T22:24:02.106727 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:227:in `check_vagrant_version'
+E, [2014-10-01T22:24:02.106768 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:100:in `verify_dependencies'
+E, [2014-10-01T22:24:02.106809 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/driver.rb:45:in `for_plugin'
+E, [2014-10-01T22:24:02.106894 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:124:in `new_driver'
+E, [2014-10-01T22:24:02.106939 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:130:in `new_instance'
+E, [2014-10-01T22:24:02.106981 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:73:in `block in build_instances'
+E, [2014-10-01T22:24:02.107023 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `map'
+E, [2014-10-01T22:24:02.107063 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `with_index'
+E, [2014-10-01T22:24:02.107104 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-01T22:24:02.107145 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-01T22:24:02.107186 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-01T22:24:02.107226 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-01T22:24:02.107268 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/command/list.rb:31:in `call'
+E, [2014-10-01T22:24:02.107308 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-01T22:24:02.107352 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:81:in `list'
+E, [2014-10-01T22:24:02.107393 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-01T22:24:02.107433 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-01T22:24:02.107473 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-10-01T22:24:02.107529 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-01T22:24:02.107588 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.1.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-01T22:24:02.107631 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-01T22:24:02.107672 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-01T22:24:02.107716 #10115] ERROR -- Kitchen: /opt/chefdk/embedded/apps/test-kitchen/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-01T22:24:02.107757 #10115] ERROR -- Kitchen: /usr/bin/kitchen:10:in `load'
+E, [2014-10-01T22:24:02.107796 #10115] ERROR -- Kitchen: /usr/bin/kitchen:10:in `<main>'
+E, [2014-10-01T22:24:02.107941 #10115] ERROR -- Kitchen: ----------------------
