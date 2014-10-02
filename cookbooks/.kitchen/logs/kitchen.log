@@ -1,0 +1,31 @@
+I, [2014-10-02T04:14:18.449718 #22650]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+E, [2014-10-02T04:14:18.450119 #22650] ERROR -- Kitchen: ------Exception-------
+E, [2014-10-02T04:14:18.450163 #22650] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2014-10-02T04:14:18.450199 #22650] ERROR -- Kitchen: Message: Kitchen YAML file /home/zogg/Zemeplytis/vinted-task/cookbooks/.kitchen.yml does not exist.
+E, [2014-10-02T04:14:18.450231 #22650] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-10-02T04:14:18.450262 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/loader/yaml.rb:74:in `read'
+E, [2014-10-02T04:14:18.450301 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:78:in `data'
+E, [2014-10-02T04:14:18.450333 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:66:in `suites'
+E, [2014-10-02T04:14:18.450364 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:90:in `filter_instances'
+E, [2014-10-02T04:14:18.450396 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:72:in `build_instances'
+E, [2014-10-02T04:14:18.450427 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/config.rb:52:in `instances'
+E, [2014-10-02T04:14:18.450458 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:64:in `get_filtered_instances'
+E, [2014-10-02T04:14:18.450490 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:85:in `parse_subcommand'
+E, [2014-10-02T04:14:18.450521 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:37:in `block in call'
+E, [2014-10-02T04:14:18.450552 #22650] ERROR -- Kitchen: /home/zogg/.rvm/rubies/ruby-2.1.3/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-10-02T04:14:18.450586 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/command/action.rb:36:in `call'
+E, [2014-10-02T04:14:18.450644 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:47:in `perform'
+E, [2014-10-02T04:14:18.450676 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:118:in `block (2 levels) in <class:CLI>'
+E, [2014-10-02T04:14:18.450708 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2014-10-02T04:14:18.450740 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2014-10-02T04:14:18.450771 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/cli.rb:233:in `invoke_task'
+E, [2014-10-02T04:14:18.450802 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2014-10-02T04:14:18.450833 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2014-10-02T04:14:18.450864 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/bin/kitchen:13:in `block in <top (required)>'
+E, [2014-10-02T04:14:18.450896 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/lib/kitchen/errors.rb:81:in `with_friendly_errors'
+E, [2014-10-02T04:14:18.450928 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/gems/test-kitchen-1.2.1/bin/kitchen:13:in `<top (required)>'
+E, [2014-10-02T04:14:18.450959 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/bin/kitchen:23:in `load'
+E, [2014-10-02T04:14:18.450990 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/bin/kitchen:23:in `<main>'
+E, [2014-10-02T04:14:18.451020 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `eval'
+E, [2014-10-02T04:14:18.451051 #22650] ERROR -- Kitchen: /home/zogg/.rvm/gems/ruby-2.1.3/bin/ruby_executable_hooks:15:in `<main>'
+E, [2014-10-02T04:14:18.451091 #22650] ERROR -- Kitchen: ----------------------

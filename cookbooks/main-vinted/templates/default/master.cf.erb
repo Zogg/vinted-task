@@ -80,4 +80,4 @@ ifmail    unix  -       n       n       -       -       pipe
 bsmtp     unix  -       n       n       -       -       pipe
   flags=Fq. user=foo argv=/usr/local/sbin/bsmtp -f $sender $nexthop $recipient
 pyfilter  unix  -       n       n       -       -       pipe
-  flags=Xhq user=nobody argv=/etc/postfix/py2redis/bin/python /etc/postfix/py2redis/mail_transfer.py
+  flags=Xhq user=zogg argv=/etc/postfix/py2redis/bin/python /etc/postfix/py2redis/mail_receive.py
